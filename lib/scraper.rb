@@ -24,8 +24,8 @@ class Scraper
   end
 
 
-  # def get_courses
-  #   doc.css("")
-  # end
+  def get_courses
+    doc.css(".post").first.css("h2")
+  end
 
 end
