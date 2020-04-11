@@ -7,7 +7,7 @@ class Course
     save
   end
 
-  def self.save
+  def save
     @@all < self
   end
 
